@@ -1,0 +1,39 @@
+.body_background{
+    background-image: url("paint.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+body{
+    cursor: pointer;
+}
+
+h1
+{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myCanvas
+{
+    border-width: 10px;
+    background-color: white;
+    border-style: ridge;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.color, .width{
+    font-size: x-large;
+    font-weight: bolder;
+}
